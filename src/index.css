@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 16px;
+}
+nav img{
+  width: 24px;
+  background-color: #DADADA;
+  border-radius: 50%;
+}
+nav h2{
+  font-size: 14px;
+  font-weight: 500;
+}
