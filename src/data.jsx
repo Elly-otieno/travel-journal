@@ -1,7 +1,11 @@
+import mount from "./assets/images/mountFuji.svg"
+import sydney from "./assets/images/sydney.svg"
+import geiran from "./assets/images/geiran.svg"
+
 const data = [
   {
     id: 1,
-    coverImg: "mountFuji.svg",
+    coverImg: mount,
     country: "JAPAN",
     name: "Mount Fuji",
     dateVisited: "12 Jan, 2021 - 24 Jan, 2021",
@@ -11,7 +15,7 @@ const data = [
   },
   {
     id: 2,
-    coverImg: "sydney.svg",
+    coverImg: sydney,
     country: "AUSTRALIA",
     name: "Sydney Opera House",
     dateVisited: "27 May, 2021 - 8 Jun, 2021",
@@ -21,7 +25,7 @@ const data = [
   },
   {
     id: 3,
-    coverImg: "geiran.svg",
+    coverImg: geiran,
     country: "NORWAY",
     name: "Geirangerfjord",
     dateVisited: "01 Oct, 2021 - 18 Nov, 2021",
@@ -30,3 +34,5 @@ const data = [
       "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
   }
 ];
+
+export default data;
